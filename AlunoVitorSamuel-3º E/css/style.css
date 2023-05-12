@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.cabecalho{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.cabecalho .menu{
+    font-size: 18px;
+    display: flex;
+    padding-left: 550px;
+    align-items: center;
+    gap: 50px;
+    
+}
+.cabecalho .titulo{
+    margin-left: 20px;
+}
+.img{
+    width: 930px;
+}
+.img-l2{
+    width: 470px;
+}
+.img-l3{
+    width: 620px;
+}
+.img-l3-{
+    width: 610px;
+    height: 1014px;
+}
+.linha-1{
+    display: grid;
+    grid-template-columns: 920px 920px;
+}
+.linha-2{
+    display: grid;
+    grid-template-columns: 460px 460px 460px 460px;
+}
+.linha-3{
+    display: grid;
+    grid-template-columns: 620px 620px 620px ;
+}
+section{
+    height: 250px;
+    margin-top: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.final{
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.creditos{
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.area-modal{
+    display: flex;
+    justify-content: center;
+    
+}
+.modal{
+    position: absolute;
+    margin-top: 100px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.modal-interno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    
+}
+.email{
+    width: 900px;
+    height: 40px;
+    border-radius: 10px;
+    border: #707070;
+}
+.senha{
+    margin-top: 30px;
+    width: 900px;
+    height: 40px;
+    border-radius: 10px;
+}
+#login{
+    font-size: 50px;
+}
